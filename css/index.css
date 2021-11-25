@@ -124,7 +124,7 @@ footer {
 #main p,
 a {
 	margin-top: 10px;
-	font-size: 35px;
+	font-size: 25px;
 }
 
 #main span {
@@ -347,9 +347,6 @@ footer i {
 		font-size: 55px
 	}
 
-	#main p,a {
-		font-size: 25px;
-	}
 
 	#sobre {
 		height: 60vh
