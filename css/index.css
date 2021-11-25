@@ -67,7 +67,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 
-	background-color: #6b03fc;
+	background-color: #323232;
 	color: #fff;
 	box-shadow: inset 0px 0px 17px 1px rgba(0, 0, 0, 0.75);
 }
@@ -85,7 +85,7 @@ footer {
 
 #skills img[data-src] {
 	opacity: 0;
-	transform: translateX(200%);
+	transform: translateX(90%);
 }
 
 #skills img[src] {
@@ -96,7 +96,7 @@ footer {
 
 #main {
 	align-items: center;
-	background-image: url(../images/wallpaper.jfif);
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url(../images/wallpaper3.jfif);
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
@@ -105,7 +105,6 @@ footer {
 	height: 85vh;
 	justify-content: center;
 	width: 100%;
-	text-shadow: 1px 6px 5px #171717;
 }
 
 #main article {
@@ -130,15 +129,14 @@ a {
 
 #main span {
 	color: #03fc5e;
-	text-shadow: 2px 2px 11px rgba(23, 23, 23, 0.97);
+
 }
 
 #sobre {
 	height: 45vh;
-	background-color: #6b03fc;
+	background-color: #323232;
 	color: #fff;
 	text-align: center;
-	text-shadow: 2px 2px 11px rgba(23, 23, 23, 0.97);
 	box-shadow: inset 0px -1px 13px 0px #000000;
 }
 
@@ -277,7 +275,7 @@ footer i {
 	border-radius: 10px;
 	justify-content: center;
 	flex-direction: column;
-	font-size: 25px;
+	font-size: 20px;
 	height: 100%;
 	left: 0;
 	opacity: 0;
@@ -302,9 +300,12 @@ footer i {
 .overlay:hover > * {
 	transform: translateY(0px);
 }
+.overlay p {
+	margin: 5px 10px
+}
 
 .button {
-	background-color: #03fc5e;
+	background-color: #6a1b9a;
 	border: none;
 	color: white;
 	padding: 15px;
